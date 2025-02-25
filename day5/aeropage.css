@@ -1,0 +1,196 @@
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(195, 232, 246) ;
+}
+#nav_links{
+    column-gap: 70px;
+    display: flex;
+    font-size: 30px;
+    color: black;
+}
+#nav_links > a{
+    text-decoration: none;
+    color: black;   
+}
+#Page{
+    color: orangered;
+    font-weight: 900;
+}
+#download > img{
+    border-radius: 20px;
+}
+#download{
+    gap: 10px;
+    background-color: orangered;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+#download > span{
+    font-size: 30px;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(195, 232, 246);
+    width: 100%;
+    padding-top: 200px;
+    column-gap: 150px;
+    padding-bottom: 200px;
+}
+#profile > #profile-info{
+    width: 50%;
+    margin-left: 100px;
+}
+
+#profile-info > span{
+    font-size: 35px;    
+}
+#profile-info > h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+#profile-info > p{
+    font-size: 20px;
+
+}
+#email-submit{
+    width: 80%;
+    padding: 20px 5px !important;
+    display: inline-block;
+    background-color: rgb(96, 156, 179);
+    justify-content: end;
+}
+#email-submit > input{
+    width: 70%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#email-submit > span{
+    font-size: 30px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: orangered;
+}
+#profile-info > #readmore{
+    padding: 5px 25px;
+    background-color: orangered;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(165, 135, 135);
+}
+#chooseus{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+#chooseusImg{
+    margin: auto;
+    width: 50%;
+    margin-left: 200px;
+    
+}
+
+
+#chooseusImg > img{
+    border-radius: 30px;
+    width: 89%;
+}
+#about{
+    padding:100px;
+    width: 50%;
+}
+#about > span{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: orange;
+    color: rgb(248, 248, 248);
+    outline-color:orangered;
+    outline-width: 2px;
+    outline-style: solid;
+    font-size: 25px;
+}
+#about > h1{
+    font-size: 40px;
+}
+#about > p{
+    font-size: 30px;
+}
+ul > li{
+    line-height: 50px;
+    font-size: 30px;
+}
+li::marker{
+    color: orangered;
+}
+#about > #readmore-about{
+    padding: 5px 25px;
+    background-color: orangered;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(165, 135, 135);
+    font-size: 30px;
+    color: black;
+}
+#Services-strategies{
+    text-align: center;
+    margin-top: 200px;
+}
+#Services-strategies > span{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: orange;
+    color: rgb(248, 248, 248);
+    outline-color:orangered;
+    outline-width: 2px;
+    outline-style: solid;
+    font-size: 30px;
+}
+#Services-strategies > h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+#Services-strategies > p{
+    font-size: 25px;
+}
+#service-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 4px solid black;
+    border-radius: 15px;
+    box-shadow:5px 5px 10px rgb(165, 135, 135) ;
+}
+.card > .cardleft{
+    height: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px rgb(165, 135, 135);
+}
+.card-right{
+    font-size: 20px;
+    margin: 0 50px 50px 0;
+}
+.card-right > p{
+    font-size: 25px;
+}
+.card-right > span{
+    font-size: 30px;
+    font-weight: 900;
+}

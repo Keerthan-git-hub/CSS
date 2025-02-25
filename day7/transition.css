@@ -1,0 +1,86 @@
+#heading{
+    height: 100px;
+    background-color: rgb(124, 99, 99);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#heading > h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+#images{
+    display: flex;
+    justify-content: space-around;
+}
+#rotatebackgroundcolor{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 100px;
+    transition:transform 3s ease-in 0.5s, background-color 3s ease-in 0.5s ;
+}
+#rotatebackgroundcolor:hover{
+    transform: rotate(15deg);
+    background-color: aqua;
+}
+#rotatebackgroundcolor > #img1{
+    width: 200px;
+    height: 200px;
+    border: 1px;
+    padding: 30px;
+    transition: border-radius 2s ease-in-out 0.5s,transform 3s ease-in 0.5s;
+     
+}
+#img1:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    transform: translate(300px);
+}
+#scaleandresize{
+    width: 20%;
+    height: 50vh;
+    border: 2px solid black;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(243, 186, 165);
+    transition: transform 3s ease-in-out 0.3s;
+}
+#scaleandresize:hover{
+    transform: scale(1.5);
+}
+#scaleandresize > #img2{
+    width: 140px;
+    height: 140px;
+    border: 1px;
+    padding: 100px;
+    justify-content: center;
+    transition: transform 3s ease-in 0.5s ;
+}
+#img2:hover{
+    transform: scale(1.5);
+}
+#tables{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#table1{
+    border: 2px solid black;
+    padding: 20px 100px;
+    transition: transform 2s ease-in 0.5s;
+}
+#table1:hover{
+    transform: skew(45deg);
+    opacity: 1;
+}
+#table2{
+    border: 2px solid black;
+    padding: 20px 100px;
+    transition: transform 2s ease-in 0.5s;
+}
+#table2:hover{
+    transform: translate(20px);
+    color: rgb(15, 91, 65);
+}
